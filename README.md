@@ -13,11 +13,12 @@ Twitter user @dog_Rates (A.K.A. WeRateDogs).
 ### Steps:
 
 1. Data is gathered from at least 3 different sources
-  a) One is a dataset that is given to me
+  a) One is a dataset that is given to me to be downloaded manually
 
   b) Another should be downloaded programatically using a URL: https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv
 
   c) Additional data should be pulled using the JSON file from Twitter's API
+
 2. Data is assessed, cleaned and tested
   * Performed Visual and Programmatic assessment
   * Detect at least 9 quality issues and 2 tidiness issues
