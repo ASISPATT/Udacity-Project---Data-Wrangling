@@ -29,6 +29,13 @@ Twitter user @dog_Rates (A.K.A. WeRateDogs).
 4. Data is then Analyzed to find at least 3 findings
   * Findings are documented in separate file
 
+Things to keep in mind:
+    * You only want original ratings (no retweets) that have images
+        * Not all are dog ratings
+        * Some are retweets
+    * There's a hint to perform a merge as a result to a tidiness issue
+    * There's no need to correct the improper fractions because its funny
+
 
 ### Submission:
 
