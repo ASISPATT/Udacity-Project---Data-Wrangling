@@ -52,11 +52,28 @@ Things to keep in mind:
 
 ## Important files & Installation Notes
 
-* The Data File Contains the downloaded data
-* **UPDATE ME LATER**
+* The `data\` File Contains the downloaded data and some `pickle` files creating
+during wrangling process
+    * contains `wrangled\` sub-directory with the wrangled data (SQL and CSV)
+* `act_report.md` is a markdown file that compiles to a PDF with the report for
+the visualisation created with Tableau in this project. Link in References
+section.
+* `visualise-act.twb` is the Tableau workbook file in case you want to open it in
+the desktop version.
+* `wrangle_report.md` is also a markdown file which contains general remarks over
+the wrangling process and also compiles to the corresponding pdf file.
+* `wrangling-act.ipynb` is the jupyter notebook file which outlines each
+individual step during the wrangling process along with comments and markdown
+analysis of the assessment stages.
+    * This notebook was converted to html for quick and easy viewing within the
+    browser.
 
 ## References and Citations
 
 * [Tidy Data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
 * [Twitter API](http://www.tweepy.org/)
   * [Guide](https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/)
+* @kdow - helped with importing JSON file.
+    * Link to [repo](https://github.com/kdow/WeRateDogs).
+* Online [link](https://public.tableau.com/profile/simon.thornewill.von.essen#!/vizhome/Udacity-DAND-WeRateDogs-Visualisation/Story1?publish=yes)
+to my Tableau visualisation
